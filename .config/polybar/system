@@ -1,0 +1,5 @@
+; When some modules in the polybar doesn't show up.
+; Look for network: "ls -l /sys/class/net"
+
+[system]
+network_interface = enp0s25

@@ -1,0 +1,96 @@
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[global/wm]
+margin-bottom = 0
+margin-top = 0
+
+include-file = ~/.config/polybar/colors
+include-file = ~/.config/polybar/modules
+include-file = ~/.config/polybar/decor
+include-file = ~/.config/polybar/system
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[bar/bar]
+monitor =
+monitor-fallback =
+monitor-strict = false
+
+override-redirect = false
+
+bottom = false
+fixed-center = true
+
+width = 100%
+height = 25
+
+offset-x = 0
+offset-y = 0
+
+background = ${color.altbackground}
+foreground = ${color.foreground}
+
+radius-top = 0
+radius-bottom = 0
+
+line-size = 2
+line-color = ${color.altbackground}
+
+border-size = 3
+border-color = ${color.altbackground}
+
+padding = 0
+
+module-margin-left = 0
+module-margin-right = 0
+
+wm-restack = bspwm
+
+font-0 = "Source Code Pro Medium:size=11;3"
+font-1 = "Iosevka Nerd Font:size=12;3"
+font-2 = "Iosevka Nerd Font:size=16;4"
+font-3 = "Iosevka Nerd Font:size=18;4"
+font-4 = "Source Code Pro Bold:size=13;3"
+font-5 = "Symbols Nerd Font:size=15;-3"
+font-6 = "MesloLGS NF:size=16;4"
+font-7 = "Monospace:size=10;2"
+
+# Default
+modules-left = L launcher R spacing L polywins R
+modules-center = openbox
+modules-right = L mpd zscroll R spacing L screenshot R spacing L volume R spacing L time R spacing L powermenu R spacing
+
+spacing = 0
+dim-value = 1.0
+
+tray-position = right
+tray-detached = false
+tray-maxsize = 28
+tray-background = ${color.background}
+tray-offset-x = 0
+tray-offset-y = 0
+tray-padding = 1
+tray-scale = 1.0
+
+enable-ipc = true
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+[settings]
+throttle-output = 5
+throttle-output-for = 10
+
+screenchange-reload = false
+
+compositing-background = source
+compositing-foreground = over
+compositing-overline = over
+compositing-underline = over
+compositing-border = over
+
+pseudo-transparency = false
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_

@@ -1,0 +1,21 @@
+Chrome,google-chrome-stable,chrome
+Files,thunar,nemo
+Terminal,st,terminal
+Editor,mousepad,mousepad
+Music,spotify,spotify
+Apps,^checkout(lx-apps),applications-all
+^sep()
+Settings,^checkout(openbox),applications-webapps
+Exit,^checkout(exit),system-shut-down
+
+^tag(openbox)
+Edit Config, mousepad ~/.config/openbox/rc.xml, configuration_section
+Restart, openbox --restart, system-reboot
+Exit, openbox --quit, system-shutdown
+
+^tag(exit)
+Logout, openbox --exit,gnome-logout
+Restart, systemctl -i reboot,un-reboot
+Shutdown, systemctl -i poweroff,system-shut-down
+
+^tag(lx-apps)

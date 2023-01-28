@@ -1,0 +1,31 @@
+[module/spacing]
+type = custom/text
+content = " "
+content-background = ${color.background}
+
+[module/sep]
+type = custom/text
+;content = 
+content = ""
+
+content-font = 3
+content-background = ${color.background}
+content-foreground = ${color.altblack}
+content-padding = 1
+
+
+;; _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+
+[module/L]
+type = custom/text
+content = "%{T3}%{T-}"
+content-background = ${color.background}
+content-foreground = ${color.magenta}
+
+[module/R]
+type = custom/text
+content = "%{T7}%{T-}"
+content-background = ${color.background}
+content-foreground = ${color.magenta}
+
