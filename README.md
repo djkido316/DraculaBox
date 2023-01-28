@@ -3,11 +3,13 @@ Minimal yet aesthetic Dracula themed Openbox rice.
 
 ## Screenshots:
 
-![picture 1](Screenshots/1.png)  
-![picture 2](Screenshots/3.png)
-![picture 3](Screenshots/2.png)
-![picture 4](Screenshots/4.png)
-
+<p float="left">
+<img src="Screenshots/1.png" width="500"> 
+<img src="Screenshots/3.png" width="500">
+<img src="Screenshots/2.png" width="500">
+<img src="Screenshots/4.png" width="500">
+</p>
+  
 #### About:
 * **Openbox** as the Window Manager
 * **Dracula** as the color scheme.
