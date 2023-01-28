@@ -26,7 +26,7 @@ Minimal yet aesthetic Dracula themed Openbox rice.
 <summary><b>Install Dependencies</b></summary>
 
 ```bash
-yay -S openbox polybar jgmenu mpd mpc ncmpcpp dunst scrot pavucontrol pulseaudio fish feh mousepad cava google-chrome spotify rofi nitrogen zscroll wmctrl xorg-xprop xdotool --needed
+yay -S openbox polybar jgmenu mpd mpc ncmpcpp dunst scrot pavucontrol pulseaudio fish feh mousepad cava google-chrome spotify rofi nitrogen zscroll wmctrl xorg-xprop xdotool xfce4-screenshooter --needed
 ```
 <summary><b>Installing Dots:</b></summary>
 
