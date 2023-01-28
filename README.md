@@ -1,6 +1,8 @@
 ### DraculaBox
 Minimal yet aesthetic Dracula themed Openbox rice.
 
+## Screenshots:
+
 ![picture 1](Screenshots/1.png)  
 ![picture 2](Screenshots/2.png)
 ![picture 3](Screenshots/3.png)
@@ -56,10 +58,5 @@ mkdir -p ~/.themes
 cd themes
 mv * ~/.themes
 ```
-ALL DONE!
+### All Done!
 
-## Screenshots:
-
-![picture 1](Screenshots/1.png)  
-![picture 2](Screenshots/2.png)
-![picture 3](Screenshots/3.png)
