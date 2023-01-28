@@ -1,4 +1,4 @@
-### Thanks for Visiting! 
+### Welcome to my repo! 
 Minimal yet aesthetic Dracula themed Openbox rice.
 
 #### DraculaBox 
