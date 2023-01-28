@@ -4,10 +4,10 @@ Minimal yet aesthetic Dracula themed Openbox rice.
 ## Screenshots:
 
 <p float="left">
-<img src="Screenshots/1.png" width="500"> 
-<img src="Screenshots/3.png" width="500">
-<img src="Screenshots/2.png" width="500">
-<img src="Screenshots/4.png" width="500">
+<img src="Screenshots/1.png" width="475"> 
+<img src="Screenshots/3.png" width="475">
+<img src="Screenshots/2.png" width="475">
+<img src="Screenshots/4.png" width="475">
 </p>
   
 #### About:
