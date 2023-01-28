@@ -45,7 +45,7 @@ Install Fonts:
 mkdir -p ~/.local/share/fonts
 cd fonts
 mv * ~/.local/share/fonts/
-then do fc-cache -fv
+fc-cache -fv
 ```
 Install Icons:
 ```bash
